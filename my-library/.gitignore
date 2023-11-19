@@ -1,0 +1,52 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.json
+*.cjs
+
+# Dossiers
+node_modules/        # Dossier des dépendances installées via npm/yarn
+dist/                # Dossier de distribution
+.cache/              # Dossier des caches
+
+# Fichiers de configuration
+.env                 # Fichier de configuration contenant des variables d'environnement
+.env.local           # Fichier de configuration local
+
+# Fichiers générés
+.DS_Store            # Fichier créé par macOS pour stocker les métadonnées
+
+# Logs et fichiers temporaires
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Fichiers spécifiques à Node.js
+package-lock.json   # Verrouillage des dépendances npm
+
+# Fichiers générés par TypeScript
+*.js
+*.js.map
